@@ -6,6 +6,7 @@
         <table>
             <thead>
                 <tr>
+                        <th> NO</th>
                         <th> NAMA BARANG </th>
                         <th> JUMLAH </th>
                         <th> MERK </th>
