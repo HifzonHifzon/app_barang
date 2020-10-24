@@ -9,7 +9,7 @@ class Barang extends CI_Controller {
 
     function index() {
         $data = $this->Barang_model->getData('tbl_barang');
-        $this->load->view('list',["data" => $data]);
+        $this->load->view('list',["list" => $data]);
     }
 }
 
