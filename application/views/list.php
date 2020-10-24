@@ -12,8 +12,9 @@
                 </tr>
             </thead>
             <tbody>
-            <?php foreach ($list as $key) {?>
+            <?php $no=1; foreach ($list as $key) {?>
                 <tr>
+                    <td>  <?php echo $no++; ?></td>
                     <td>  <?php echo $key->nm_barang; ?></td>
                     <td>  <?php echo $key->merk; ?></td>
                     <td>  <?php echo $key->jml; ?></td>
